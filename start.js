@@ -1,6 +1,9 @@
 var express = require("express");
 var app     = express();
 var path    = require("path");
+var fs = require('fs');
+var css = './css/';
+//-----------------------------------------------------------------------//
 
 // include and initialize the rollbar library with your access token
 var Rollbar = require("rollbar");
@@ -92,6 +95,19 @@ app.get('/iglogo.png',function(req,res){
 	res.sendfile('./iglogo.png');
 });
 
+app.get('/login/lockpage')
+
 app.listen(80);
 
 console.log("Running at Port 80");
+//-----------------------------------------------------------------------//
+
+                      ////////////////////////////////
+                      /// Console Log Files Loaded ///
+                      ////////////////////////////////
+
+fs.readdir(css, (err, files) => {
+  files.forEach(file => {
+    console.log(file);
+  });
+})
