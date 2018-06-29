@@ -4,14 +4,6 @@ var path    = require("path");
 var fs = require('fs');
 var css = './css/';
 //-----------------------------------------------------------------------//
-
-// include and initialize the rollbar library with your access token
-var Rollbar = require("rollbar");
-var rollbar = new Rollbar("a282a5107935477188bf1aa8548def43");
-
-// record a generic message and send it to Rollbar
-rollbar.log("Hello world!");
-//-----------------------------------------------------------------------//
 								/////////////////////////
 								/// Direcrory Loading ///
 								/////////////////////////
