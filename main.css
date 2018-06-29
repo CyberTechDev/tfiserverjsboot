@@ -24,8 +24,6 @@ a {
   color: inherit;
 }
 
-
-
 nav ul {
     background-color: #2295af;
     overflow: hidden;
@@ -118,25 +116,6 @@ footer {
    padding-bottom: 0px;
    margin-bottom: 0px;
 }
-
-.nav-desk {
-  float: left;
-  display: inline-block;
-  padding: 10px;
-  background-color: #6699cc;
-}
-
-.nav-desk:hover {
-  display: block;
-  padding: 8px;
-  background-color: #264d73;
-  text-decoration-color: white;
-}
-
-.nav-desk a {
-  text-decoration-color: white;
-}
-
 }
 
 
