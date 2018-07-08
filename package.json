@@ -1,0 +1,26 @@
+{
+  "name": "tfiserverjsboot",
+  "version": "1.0.0",
+  "description": "Javascript boot style",
+  "main": "app.js",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "node.js": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PowellTravis/tfiserverjsboot.git"
+  },
+  "author": "Travis Powell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PowellTravis/tfiserverjsboot/issues"
+  },
+  "homepage": "https://github.com/PowellTravis/tfiserverjsboot#readme"
+}

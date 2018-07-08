@@ -87,11 +87,13 @@ app.get('/iglogo.png',function(req,res){
 	res.sendfile('./iglogo.png');
 });
 
-app.get('/login/lockpage')
+app.get('/login/lockpage',function(req,res){
+  res.sendFile('./Login/lockpage.html');
+});
 
-app.listen(443);
+app.listen(8000);
 
-console.log("Running at Port 443");
+console.log("Running at Port 8000");
 //-----------------------------------------------------------------------//
 
                       ////////////////////////////////
