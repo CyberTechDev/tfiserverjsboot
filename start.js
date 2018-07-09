@@ -91,9 +91,9 @@ app.get('/login/lockpage',function(req,res){
   res.sendFile('./Login/lockpage.html');
 });
 
-app.listen(8000);
+app.listen(80);
 
-console.log("Running at Port 8000");
+console.log("Running at Port 80");
 //-----------------------------------------------------------------------//
 
                       ////////////////////////////////
