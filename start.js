@@ -1,3 +1,5 @@
+/* 
+** THIS SITE HAS BEEN TAKEN DOWN, THIS CODE IS NOW OPEN SOURCE TO ANYONE**
 var express = require("express");
 var app     = express();
 var path    = require("path");
@@ -105,3 +107,4 @@ fs.readdir(css, (err, files) => {
     console.log(file);
   });
 })
+*/ 
