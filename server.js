@@ -1,3 +1,5 @@
+// THHIS SITE IS NOW OPEN SOURCE, DOWNLOAD AT FREE WILL, BUT DONT USE PERSONAL INFORMATION FROM THIS SITE!
+
 var http = require('http');
 var fs = require('fs');
 function onRequest(request, response) {
